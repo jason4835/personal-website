@@ -1,0 +1,88 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #8d99ae;
+    font-family: 'Loto', sans-serif;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    color: #edf2f4;
+}
+
+nav {
+    background-color: #2b2d42;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.page-links {
+    padding: 5px;
+}
+
+h1 {
+    color: #4a4e69;
+}
+
+a {
+    text-decoration: none;
+    color: #f2e9e4;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: grey;
+
+    cursor: pointer;
+}
+
+h3 {
+    color: #fca311;
+}
+
+.skills-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.coding-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.boxing-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-image {
+    margin: 5%;
+    width: 15%;
+}
+
+.intro {
+    width: 35%;
+    margin: auto;
+}
+
+#my-skills {
+    padding-bottom: 150px;
+}
+
+#about-me {
+    padding-bottom: 150px;
+}
+
+#contact {
+    width: 35%;
+    margin: auto;
+    padding-bottom: 100px;
+}
